@@ -37,7 +37,7 @@ jobs:
         run: python -m playwright install --with-deps # Keep this fix
 
       - name: Run Playwright tests
-        run: pytest tests/ --trace --html=report.html --no-pdb
+        run: pytest tests/ --trace on
 
       - name: Upload Playwright report
         uses: actions/upload-artifact@v4
