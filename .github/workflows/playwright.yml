@@ -30,7 +30,7 @@ jobs:
           pip install -e . # Install your framework package in editable mode
 
       - name: Install Playwright Browsers and Dependencies
-        run: playwright install --with-deps # Install browsers and OS dependencies
+        run: python -m playwright install --with-deps
 
       - name: Run Playwright tests
         run: pytest tests/ --trace --html=report.html --no-pdb # Command to run tests
