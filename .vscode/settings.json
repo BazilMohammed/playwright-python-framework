@@ -1,0 +1,20 @@
+{
+  "github.copilot": {
+    "enable": false,
+    "inlineSuggest": {
+      "enable": false
+    }
+  },
+  "editor.inlineSuggest.enabled": false,
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+"editor.suggestOnTriggerCharacters": false,
+"python.testing.pytestArgs": [
+    "tests"
+],
+"python.testing.unittestEnabled": false,
+"python.testing.pytestEnabled": true
+}

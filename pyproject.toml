@@ -1,0 +1,8 @@
+[project]
+name = "playwright-test-framework"
+version = "0.1.0"
+
+
+
+[tool.setuptools]
+packages = ["page_objects"]
